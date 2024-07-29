@@ -11,12 +11,12 @@ Steps to run the simulation:
 
 1. Clone the github repository:
     ```bash
-    git clone https://github.com/Rishit-katiyar/physarum-bio-simulation.git
+    git clone (https://github.com/JustinVeerasami/MatplotSlime.git)
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd physarum-bio-simulation
+    cd MatplotSlime
     ```
 
 3. Install the required dependencies using pip:
