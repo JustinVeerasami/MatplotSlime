@@ -6,3 +6,20 @@ Slime Mold simulation hosted within a matplot to show the animated movement of t
 
 <img src="[https://i.imgur.com/ZWnhY9T.png](https://miamioh.edu/cas/departments/microbiology/about/art-gallery/_images/09-physarum-polycephalum.jpg)" width=75% height=75%>
 
+## Installation
+Steps to run the simulation:
+
+1. Clone the github repository:
+    ```bash
+    git clone https://github.com/Rishit-katiyar/physarum-bio-simulation.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd physarum-bio-simulation
+    ```
+
+3. Install the required dependencies using pip:
+    ```bash
+    pip install -r requirements.txt
+    ```
