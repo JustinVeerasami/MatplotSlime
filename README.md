@@ -1,10 +1,7 @@
 # MatplotSlime
 Slime Mold simulation hosted within a matplot to show the animated movement of the slime mold in an attempt to mimic the physical counterpart ("Physarum")
 
-
-![images](https://github.com/user-attachments/assets/6aabd2be-ab14-4128-b87e-01150e412cf1)
-
-<img src="([https://github.com/JustinVeerasami/MatplotSlime/blob/Prototypes/MatplotSlime_PixelArt.jpg])" width=75% height=75%>
+<img src="https://github.com/JustinVeerasami/MatplotSlime/blob/Prototypes/MatplotSlime_PixelArt.jpg" width=33% height=33%>
 
 ## Installation
 Steps to run the simulation:
