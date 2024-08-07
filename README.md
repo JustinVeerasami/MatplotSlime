@@ -7,8 +7,8 @@ Slime Mold simulation Hosted within a matplot to show the animated movement of t
 Stages of the process involved in this project were mapped out within the folder contained within this branch, versions along the way of the mold simulation were incorporated into the folder with each subsequent step of the unfinalized copies
 
 ### General Explanation of Prototypes (As of 7/29/2024)
-1. The original mold simulation with simplified movement rules with an automatic result as the last plot
-2. The original mold incorporating frame animation showing the start and finish movement
+1. The original mold simulation with simplified movement rules with an automatic result as the final image
+3. The original mold incorporating frame animation showing the start and finish movement
    
 <p align="center">
 <img src="https://github.com/JustinVeerasami/MatplotSlime/blob/Prototypes/Prototype_Gifs/V2_BaseCode_Animated.gif" width=40% height=40% />
