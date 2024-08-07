@@ -13,3 +13,4 @@ Stages of the process involved in this project were mapped out within the folder
 4. Movement further incorporated into the slime particles to have preference for food with random motion outside of a range
 5. Food can now be added via mouse-clicks and the slime particles now reproduce when eating the food
 6. Clustering behavior is now added so that the slime particles do not stray away and instead prefer colonies
+7. Animation can now be played "endlessly" based off a computers own specs, further comments are now added to help with clarity of functions
