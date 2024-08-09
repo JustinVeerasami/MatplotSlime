@@ -7,6 +7,13 @@ Slime Mold simulation hosted within a matplot to show the animated movement of t
 
 The completed code for this project is able to successfully run on Visual Studio Code (ver: 1.92) using the python add-on.
 
+
+## Final Results
+
+
+
+
+
 ## Installation
 Steps to run the simulation:
 
