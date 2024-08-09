@@ -34,6 +34,6 @@ Stages of the process involved in this project were mapped out within the folder
 8. The Final Mold, decay parameters are changed to 0.999
 
 <p align="center">
-<img src=https://github.com/JustinVeerasami/MatplotSlime/blob/Prototypes/Prototype_Gifs/V8_Final_Mold.gif/>
+<img src=https://github.com/JustinVeerasami/MatplotSlime/blob/Prototypes/Prototype_Gifs/V8_Final_Mold.gif width=50% height=50%/>
 </p>
 
