@@ -31,3 +31,7 @@ Steps to run the simulation:
     ```bash
     pip install -r requirements.txt
     ```
+## Run The Simulation (defaults to indefinite animation)
+    ```bash
+    python main.py
+    ```
