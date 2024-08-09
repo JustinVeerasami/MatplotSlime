@@ -36,5 +36,5 @@ Steps to run the simulation:
 python main.py
 ```
 ## References
-Thank you Rishit Katiyar for your baseline of your graph system. It is thanks to this initial repository that I was able to find a starting point to start building my simulation.
+Special thanks to Rishit Katiyar for his baseline of the graph system. It is thanks to this initial repository that I was able to find a starting point to start building my simulation.
 - https://github.com/Rishit-katiyar/physarum-bio-simulation/tree/main
