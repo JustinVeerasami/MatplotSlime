@@ -32,8 +32,28 @@ class PhysarumSim:
         self.im = self.ax.imshow(self.grid, cmap='inferno', interpolation='nearest')
         self.food_dots, = self.ax.plot([], [], 'yo', markersize=10)  # Initialize food particles plot
 
+        
         self.ax.set_title('Slime Mold (Physarum) Simulation')
-        self.fig.colorbar(self.im, ax=self.ax, label='Slime Mold Conc.')
+        self.ax.get_xaxis().set_visible(False)
+        self.ax.get_yaxis().set_visible(False)
+
+        # Changes the graph background to a color slightly brighter than black
+        self.fig.patch.set_facecolor('#141414')
+        self.ax.set_facecolor('#141414')
+        glow_color = '#614701'
+
+        # Code that allows the graph to get a border to make it pop a bit more
+        for spine in self.ax.spines.values():
+            spine.set_edgecolor(glow_color)
+            spine.set_linewidth(1)  # Thicker line for outer glow
+            spine.set_alpha(0.7)     # Transparency for the outer glow
+        
+        self.ax.set_title('Slime Mold (Physarum) Simulation', color='white')
+
+        # shifts color for the concentration bar to white and generates the actual bar
+        cbar = self.fig.colorbar(self.im, ax=self.ax, label='Slime Mold Conc.')
+        plt.setp(plt.getp(cbar.ax.axes, 'yticklabels'), color='white')  # Set tick labels to white
+        cbar.ax.yaxis.label.set_color('white')  # Set the color of the label text to white
 
         # Use for limited animation frames
         #ani = FuncAnimation(self.fig, self.update_visualization, frames=self.num_iterations // self.batch_size, interval=100, repeat=False)
