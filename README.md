@@ -30,4 +30,10 @@ Stages of the process involved in this project were mapped out within the folder
 <img src="https://github.com/JustinVeerasami/MatplotSlime/blob/Prototypes/Prototype_Gifs/Low_Clustering_20Units.gif" width=33% height=33% />
 </p>
 
-9. Animation can now be played "endlessly" based off a computers own specs, further comments are now added to help with clarity of functions
+7. Animation can now be played "endlessly" based off a computers own specs, further comments are now added to help with clarity of functions
+8. The Final Mold, decay parameters are changed to 0.999
+
+<p align="center">
+<img src=https://github.com/JustinVeerasami/MatplotSlime/blob/Prototypes/Prototype_Gifs/V8_Final_Mold.gif/>
+</p>
+
