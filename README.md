@@ -6,7 +6,7 @@ Slime Mold simulation Hosted within a matplot to show the animated movement of t
 ### Stages of the Process
 Stages of the process involved in this project were mapped out within the folder contained within this branch, versions along the way of the mold simulation were incorporated into the folder with each subsequent step of the unfinalized copies
 
-### General Explanation of Prototypes (As of 7/29/2024)
+### General Explanation of Prototypes (As of 8/9/2024)
 1. The original mold simulation with simplified movement rules with an automatic result as the final image
 3. The original mold incorporating frame animation showing the start and finish movement
    
