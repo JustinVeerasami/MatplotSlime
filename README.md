@@ -8,7 +8,7 @@ Slime Mold simulation hosted within a matplot to show the animated movement of t
 The completed code for this project is able to successfully run on Visual Studio Code (ver: 1.92) using the python add-on.
 
 
-## Final Results
+## Results
 The final simulation results (varied decay amounts are shown for the sake of configuration of the mold sizing / clustering)
 <p align="center">
 <img src=https://github.com/JustinVeerasami/MatplotSlime/blob/Prototypes/Prototype_Gifs/Final_Results.gif width=100% height=100%>
