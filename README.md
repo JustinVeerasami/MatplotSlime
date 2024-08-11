@@ -35,6 +35,14 @@ Steps to run the simulation:
 ```bash
 python main.py
 ```
+
+## Possible Future Steps
+Applying a mean curvature blur as a post-processing step to the program would produce simulation results with an improved realism while maintaining the initial particle simulation. Sample below using a filter applied via GIMP to the GIF layers produced by the simulation.
+<p align="center">
+<img src=https://github.com/JustinVeerasami/MatplotSlime/blob/Prototypes/Prototype_Gifs/v7_meancurvature_blur.gif width=45% height=45%>
+<img src=https://github.com/JustinVeerasami/MatplotSlime/blob/Prototypes/Prototype_Gifs/Final_MeanCurvatureBlur.gif width=45% height=45%>
+</p>
+
 ## References
 Special thanks to Rishit Katiyar for his baseline of the graph system. It is thanks to this initial repository that I was able to find a starting point to start building my simulation.
 - https://github.com/Rishit-katiyar/physarum-bio-simulation/tree/main
