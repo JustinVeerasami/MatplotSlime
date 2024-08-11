@@ -43,6 +43,7 @@ class PhysarumSim:
         glow_color = '#614701'
 
         # Code that allows the graph to get a border to make it pop a bit more
+        # Code pulled from chatGPT to maximize speed in finalizing the formatting of the project
         for spine in self.ax.spines.values():
             spine.set_edgecolor(glow_color)
             spine.set_linewidth(1)  # Thicker line for outer glow
@@ -133,12 +134,10 @@ class PhysarumSim:
                 best_dy = fy - y
 
         # If a food particle is within the attraction radius, move towards it
+        # Otherwise, move randomly
         if min_dist <= self.food_attraction_radius:
             return np.sign(best_dx), np.sign(best_dy)
-            #return np.random.choice([(best_dx-1), (best_dx+1), best_dx]), np.random.choice([(best_dy-1), (best_dy+1), best_dy])
         else:
-            # Otherwise, move randomly
-            # POSSIBLY ADD RANDOM FUNCTION THAT ALSO MULTIPLIES MOVEMENT AT RANDOM POINTS TO ENCOURAGE DIVERSE RANDOM MOVEMENT
             return np.random.choice([-1, 0, 1]), np.random.choice([-1, 0, 1])
 
 # Section allows for a movement towards nearby particles allowing clustering
@@ -148,6 +147,7 @@ class PhysarumSim:
         best_dx, best_dy = 0, 0
         for px, py in self.positions:
             if (px, py) != (x, y):
+                # shortest euclidian distance formula
                 dist = np.sqrt((px - x) ** 2 + (py - y) ** 2)
                 if dist < min_dist:
                     min_dist = dist
@@ -236,6 +236,7 @@ class PhysarumSim:
 
 # Click rule that allows the intro of new food particles via left-click
 # Portion of the functions that allows you to feed the mold
+# Section built with the help of chatGPT due to difficulties in finding documentation for implementation
     def onclick(self, event):
         # Check if click happened within the plot area
         if event.xdata is not None and event.ydata is not None:
@@ -258,7 +259,7 @@ class PhysarumSim:
 # configurable parameters to allow a new simulation each time the code is run
 # Decay of 0.999 resembles a real mold very closely, but it doesn't look as fast paced, a decay of 0.99 keeps things quick for a demo
 
-# A Faster paced version of the simulation, not as accuracte, but much more interactive
+# A Faster paced version of the simulation, not as accurate, but much more interactive
 #sim = PhysarumSim(gridSize=150, numIterations=1500, batch_size=50, decay_rate=0.99, food_attraction_radius=15, food_lifetime=1.0)
 
 #Looks similar to a real mold, MOST ACCURATE PARAMETERS, laggier
