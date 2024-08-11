@@ -37,13 +37,13 @@ class PhysarumSim:
         self.ax.get_xaxis().set_visible(False)
         self.ax.get_yaxis().set_visible(False)
 
+        # Code (for graph formatting) pulled from chatGPT to maximize speed in finalizing the formatting of the project
         # Changes the graph background to a color slightly brighter than black
         self.fig.patch.set_facecolor('#141414')
         self.ax.set_facecolor('#141414')
         glow_color = '#614701'
 
         # Code that allows the graph to get a border to make it pop a bit more
-        # Code pulled from chatGPT to maximize speed in finalizing the formatting of the project
         for spine in self.ax.spines.values():
             spine.set_edgecolor(glow_color)
             spine.set_linewidth(1)  # Thicker line for outer glow
