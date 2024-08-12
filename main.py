@@ -7,6 +7,7 @@ from time import time
 #from matplotlib.animation import PillowWriter
 
 class PhysarumSim:
+# Establishes the actual variables that will be used in the simulation that will be utilized to run all of the slime mold movement / food eating, also comes with a default set of parameters
     def __init__(self, gridSize=100, numIterations=1000, batch_size=50, decay_rate=0.99, food_attraction_radius=15, food_lifetime=1.0):
         self.grid_size = gridSize
         self.num_iterations = numIterations
